@@ -4,10 +4,31 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+        /* Initial state styling for the submit button */
+        #btn {
+            background-color: black; /* Background color */
+            color: white; /* Font color */
+            border-radius: 5px; /* Border radius */
+            border: none; /* No border */
+            padding: 10px 20px; /* Padding around the text */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: all 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        /* Hover state styling for the submit button */
+        #btn:hover {
+            background-color: yellow; /* Background color on hover */
+            color: black; /* Font color on hover */
+            border-radius: 30px; /* Border radius on hover */
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+<button id="btn" type="submit">Submit</button>
     <script type="text/javascript" src="./script.js">
 </script>
 
